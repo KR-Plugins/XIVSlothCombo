@@ -240,7 +240,7 @@ namespace XIVSlothCombo.Combos.PvE
                         {
                             if (LevelChecked(Hypervelocity) && HasEffect(Buffs.ReadyToBlast))
                                 return Hypervelocity;
-                            if (gauge.Ammo != 0 && GetCooldownRemainingTime(GnashingFang) > 4)
+                            if (gauge.Ammo != 0 && GetCooldownRemainingTime(GnashingFang) > 4 && GetCooldownRemainingTime(NoMercy) > 41)
                                 return BurstStrike;
                         }
 
