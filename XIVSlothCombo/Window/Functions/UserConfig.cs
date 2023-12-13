@@ -1979,12 +1979,12 @@ namespace XIVSlothCombo.Window.Functions
             #region PvE
             if (preset == CustomComboPreset.SMN_DemiEgiMenu_EgiOrder)
             {
-                UserConfig.DrawHorizontalRadioButton(SMN.Config.SMN_PrimalChoice, "Titan first", "Summons Titan, Garuda then Ifrit.", 1);
-                UserConfig.DrawHorizontalRadioButton(SMN.Config.SMN_PrimalChoice, "Garuda first", "Summons Garuda, Titan then Ifrit.", 2);
+                UserConfig.DrawHorizontalRadioButton(SMN.Config.SMN_PrimalChoice, "타이탄 우선", "타이탄, 가루다, 이프리트 순으로 소환합니다.", 1);
+                UserConfig.DrawHorizontalRadioButton(SMN.Config.SMN_PrimalChoice, "가루다 우선", "가루다, 타이탄, 이프리트 순으로 소환합니다.", 2);
             }
 
             if (preset == CustomComboPreset.SMN_DemiEgiMenu_oGCDPooling)
-                UserConfig.DrawSliderInt(0, 3, SMN.Config.SMN_Burst_Delay, "Sets the amount of GCDs under Demi summon to wait for oGCD use.", 150, SliderIncrements.Ones);
+                UserConfig.DrawSliderInt(0, 3, SMN.Config.SMN_Burst_Delay, "데미 빙의 중 oGCD 사용을 위해 대기할 GCD 횟수", 150, SliderIncrements.Ones);
 
             if (preset == CustomComboPreset.SMN_DemiEgiMenu_oGCDPooling)
             {

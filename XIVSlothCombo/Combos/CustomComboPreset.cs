@@ -3252,130 +3252,130 @@ namespace XIVSlothCombo.Combos
 
         [ReplaceSkill(SMN.Ruin, SMN.Ruin2, SMN.Outburst, SMN.Tridisaster)]
         [ConflictingCombos(SMN_Simple_Combo)]
-        [CustomComboInfo("Advanced Summoner Feature", "Advanced combo features for a greater degree of customisation.\nAccommodates SpS builds.\nRuin III is left unchanged for mobility purposes.", SMN.JobID, 0, "", "")]
+        [CustomComboInfo("고급 소환사 기능", "더 높은 수준의 커스터마이징을 위한 고급 콤보 기능.\n시전 속도 빌드를 지원합니다.\n이동성을 위해 루인가는 그대로 유지됩니다.", SMN.JobID, 0, "", "")]
         SMN_Advanced_Combo = 17000,
         
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Demi Attacks Combo Option", "Adds Deathflare, Ahk Morn and Revelation to the single target and AoE combos.", SMN.JobID, 11, "", "")]
+        [CustomComboInfo("데미 공격 콤보 옵션", "단일 대상 및 광역 콤보에 데스플레어, 아크몬, 계시를 추가합니다.", SMN.JobID, 11, "", "")]
         SMN_Advanced_Combo_DemiSummons_Attacks = 17002,
 
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Egi Attacks Combo Option", "Adds Gemshine and Precious Brilliance to the single target and AoE combos, respectively.", SMN.JobID, 4, "", "")]
+        [CustomComboInfo("에기 공격 콤보 옵션", "단일 대상과 광역 공격에 각각 보석 빛과 보석의 광휘를 추가합니다.", SMN.JobID, 4, "", "")]
         SMN_Advanced_Combo_EgiSummons_Attacks = 17004,
         
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Garuda Slipstream Option", "Adds Slipstream to the single target and AoE combos.", SMN.JobID, 6, "", "")]
+        [CustomComboInfo("가루다 반동 기류 옵션", "단일 대상 및 광역 콤보에 반동 기류를 추가합니다.", SMN.JobID, 6, "", "")]
         SMN_Garuda_Slipstream = 17005,
         
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Ifrit Cyclone Option", "Adds Crimson Cyclone and Crimson Strike to the single target and AoE combos.", SMN.JobID, 7, "", "")]
+        [CustomComboInfo("이프리트 진홍 회오리 옵션", "단일 대상 및 광역 콤보에 진홍 회오리와  진홍빛 일격을 추가합니다.", SMN.JobID, 7, "", "")]
         SMN_Ifrit_Cyclone = 17006,
         
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Titan Mountain Buster Option", "Adds Mountain Buster to the single target and AoE combos.", SMN.JobID, 5, "", "")]
+        [CustomComboInfo("타이탄 산 쪼개기 옵션", "단일 대상 및 광역 콤보에 산 쪼개기를 추가합니다.", SMN.JobID, 5, "", "")]
         SMN_Titan_MountainBuster = 17007,
 
         [ReplaceSkill(SMN.Fester)]
-        [CustomComboInfo("Energy Drain to Fester Feature", "Change Fester into Energy Drain when out of Aetherflow stacks.", SMN.JobID, 6, "", "")]
+        [CustomComboInfo("생명력 흡수 - 미아즈마 버스트 기능", "에테르를 모두 사용하면 미아즈마 버스트를 생명력 흡수로 변경합니다.", SMN.JobID, 6, "", "")]
         SMN_EDFester = 17008,
 
         [ReplaceSkill(SMN.Painflare)]
-        [CustomComboInfo("Energy Siphon to Painflare Feature", "Change Painflare into Energy Siphon when out of Aetherflow stacks.", SMN.JobID, 7, "", "")]
+        [CustomComboInfo("고통의 불길 - 생명력 흡입 기능", "에테르를 모두 사용하면 고통의 불길을 에너지 생명력 흡입으로 변경합니다.", SMN.JobID, 7, "", "")]
         SMN_ESPainflare = 17009,
 
         // BONUS TWEAKS
-        [CustomComboInfo("Carbuncle Reminder Feature", "Replaces most offensive actions with Summon Carbuncle when it is not summoned.", SMN.JobID, 8, "", "")]
+        [CustomComboInfo("카벙클 알림 기능", "카벙클이 소환되지 않았을 때 대부분의 공격 행동을 카벙클 소환으로 대체합니다.", SMN.JobID, 8, "", "")]
         SMN_CarbuncleReminder = 17010,
 
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Ruin IV Combo Option", "Adds Ruin IV to the single target and AoE combos.\nUses when moving during Garuda Phase and you have no attunement, when moving during Ifrit phase, or when you have no active Egi or Demi summon.", SMN.JobID, 0, "", "")]
+        [CustomComboInfo("루인쟈 콤보 옵션", "단일 대상과 광역 콤보에 루인쟈를 추가합니다.\n가루다 페이즈 중 이동 중이고 에테르가 없을 때, 이프리트 페이즈 중 이동 중일 때, 활성 에기 또는 데미 소환이 없을 때 사용합니다.", SMN.JobID, 0, "", "")]
         SMN_Advanced_Combo_Ruin4 = 17011,
 
         [ParentCombo(SMN_EDFester)]
-        [CustomComboInfo("Ruin IV Fester Option", "Changes Fester to Ruin IV when out of Aetherflow stacks, Energy Drain is on cooldown, and Ruin IV is available.", SMN.JobID, 0, "", "")]
+        [CustomComboInfo("루인쟈 - 미아즈마 버스트 옵션", "에테르를 모두 사용하고, 생명력 흡수가 재사용 대기시간 중이며, 루인쟈를 사용할 수 있을 때 미아즈마 버스트를 루인쟈로 변경합니다.", SMN.JobID, 0, "", "")]
         SMN_EDFester_Ruin4 = 17013,
 
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Energy Attacks Combo Option", "Adds Energy Drain and Fester to the single target combo.\nAdds Energy Siphon and Painflare to the AoE combo.\nWill be used on cooldown.", SMN.JobID, 1, "", "")]
+        [CustomComboInfo("에너지 공격 콤보 옵션", "단일 대상 콤보에 에너지 흡수와 미아즈마 버스트를 추가합니다.\n광역 콤보에 에너지 흡입과 고통의 불길을 추가합니다.\n재사용 대기시간 중에 적용됩니다.", SMN.JobID, 1, "", "")]
         SMN_Advanced_Combo_EDFester = 17014,
 
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Egi Summons Combo Option", "Adds Egi summons to the single target and AoE combos.\nWill prioritise the Egi selected below.\nIf no option is selected, the feature will default to summoning Titan first.", SMN.JobID, 3, "", "")]
+        [CustomComboInfo("에기 소환 콤보 옵션", "단일 대상 및 광역 콤보에 에기 소환을 추가합니다.\n아래에서 선택한 에기를 우선적으로 소환합니다.\n아무 옵션도 선택하지 않으면 기본적으로 타이탄을 먼저 소환합니다.", SMN.JobID, 3, "", "")]
         SMN_DemiEgiMenu_EgiOrder = 17016,
 
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Searing Light Combo Option", "Adds Searing Light to the single target and AoE combos.\nWill be used on cooldown.", SMN.JobID, 9, "", "")]
+        [CustomComboInfo("타오르는 빛 콤보 옵션", "단일 대상과 광역 콤보에 타오르 빛을 추가합니다.\n재사용 대기시간 중에 적용됩니다.", SMN.JobID, 9, "", "")]
         SMN_SearingLight = 17018,
 
         [ParentCombo(SMN_SearingLight)]
-        [CustomComboInfo("Searing Light Burst Option", "Casts Searing Light only during Demi phases.\nReflects Demi choice selected under 'Pooled oGCDs Option'.\nNot recommended for SpS Builds.", SMN.JobID, 0, "")]
+        [CustomComboInfo("타오르는 빛 버스트 옵션", "데미 단계에서만 타오르는 빛을 시전합니다.\n'oGCDs 풀링 옵션'에서 선택한 데미 선택 사항을 반영합니다.\n시전 속도 빌드에는 권장되지 않습니다.", SMN.JobID, 0, "")]
         SMN_SearingLight_Burst = 170181, // Genesis, why must you be like this -K
 
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Demi Summons Combo Option", "Adds Demi summons to the single target and AoE combos.", SMN.JobID, 10, "", "")]
+        [CustomComboInfo("데미 소환 콤보 옵션", "단일 대상 및 광역 콤보에 데미 소환을 추가합니다.", SMN.JobID, 10, "", "")]
         SMN_Advanced_Combo_DemiSummons = 17020,
 
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Swiftcast Egi Ability Option", "Uses Swiftcast during the selected Egi summon.", SMN.JobID, 8, "", "")]
+        [CustomComboInfo("신속한 마법 에기 능력 옵션", "선택한 에기 소환 중에 신속한 마법을 사용합니다.", SMN.JobID, 8, "", "")]
         SMN_DemiEgiMenu_SwiftcastEgi = 17023,
 
-        [CustomComboInfo("Astral Flow/Enkindle on Demis Feature", "Adds Enkindle Bahamut, Enkindle Phoenix and Astral Flow to their relevant summons.", SMN.JobID, 11, "", "")]
+        [CustomComboInfo("천상의 흐름/데미 점화 기능", "바하무트 점화, 피닉스 점화, 천상의 흐름을 관련 소환에 추가합니다.", SMN.JobID, 11, "", "")]
         SMN_DemiAbilities = 17024,
 
         [ParentCombo(SMN_Advanced_Combo_EDFester)]
-        [CustomComboInfo("Pooled oGCDs Option", "Pools damage oGCDs for use inside the selected Demi phase while under the Searing Light buff.", SMN.JobID, 1, "", "")]
+        [CustomComboInfo("oGCDs 풀링 옵션", "타오르는 빛 버프를 받는 동안 선택된 데미 빙의 중에 사용할 수 있도록 데미지 oGCD를 풀링합니다.", SMN.JobID, 1, "", "")]
         SMN_DemiEgiMenu_oGCDPooling = 17025,
 
         [ConflictingCombos(ALL_Caster_Raise)]
-        [CustomComboInfo("Alternative Raise Feature", "Changes Swiftcast to Raise when on cooldown.", SMN.JobID, 8, "", "")]
+        [CustomComboInfo("신속한 부활 기능", "재사용 대기시간 중 부활이 신속한 마법으로 변경됩니다.", SMN.JobID, 8, "", "")]
         SMN_Raise = 17027,
 
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Rekindle Combo Option", "Adds Rekindle to the single target and AoE combos.", SMN.JobID, 13, "", "")]
+        [CustomComboInfo("재생의 불꽃 콤보 옵션", "단일 대상 및 광역 콤보에 재생의 불꽃을 추가합니다.", SMN.JobID, 13, "", "")]
         SMN_Advanced_Combo_DemiSummons_Rekindle = 17028,
 
         [ReplaceSkill(SMN.Ruin4)]
-        [CustomComboInfo("Ruin III Mobility Feature", "Puts Ruin III on Ruin IV when you don't have Further Ruin.", SMN.JobID, 9, "", "")]
+        [CustomComboInfo("루인가 이동 기능", "추가 루인이 없을 때 루인쟈를 루인가로 변경합니다.", SMN.JobID, 9, "", "")]
         SMN_RuinMobility = 17030,
 
         [ParentCombo(SMN_Advanced_Combo)]
-        [CustomComboInfo("Lucid Dreaming Option", "Adds Lucid Dreaming to the single target combo when MP falls below the set value.", SMN.JobID, 2, "", "")]
+        [CustomComboInfo("자각몽 옵션", "MP가 설정 값 이하로 떨어지면 단일 대상 콤보에 자각몽을 추가합니다.", SMN.JobID, 2, "", "")]
         SMN_Lucid = 17031,
 
-        [CustomComboInfo("Egi Abilities on Summons Feature", "Adds Egi Abilities (Astral Flow) to Egi summons when ready.\nEgi abilities will appear on their respective Egi summon ability, as well as Titan.", SMN.JobID, 12, "", "")]
+        [CustomComboInfo("소환 시 에기 능력 기능", "준비가 되면 에기 소환에 에기 능력(천상의 흐름)을 추가합니다.\n에기 능력은 타이탄뿐만 아니라 각 에기 소환 능력에도 표시됩니다.", SMN.JobID, 12, "", "")]
         SMN_Egi_AstralFlow = 17034,
 
         [ParentCombo(SMN_SearingLight)]
-        [CustomComboInfo("Use only on Single Target combo", "Prevent this feature from applying to the AoE combo.", SMN.JobID, 2, "", "")]
+        [CustomComboInfo("단일 대상 콤보에만 사용", "이 기능이 광역 콤보에 적용되지 않도록 합니다.", SMN.JobID, 2, "", "")]
         SMN_SearingLight_STOnly = 17036,
         
         [ParentCombo(SMN_DemiEgiMenu_oGCDPooling)]
-        [CustomComboInfo("Use only on Single Target combo", "Prevent this feature from applying to the AoE combo.", SMN.JobID, 3, "", "")]
+        [CustomComboInfo("단일 대상 콤보에만 사용", "이 기능이 광역 콤보에 적용되지 않도록 합니다.", SMN.JobID, 3, "", "")]
         SMN_DemiEgiMenu_oGCDPooling_Only = 17037,
         
         [ParentCombo(SMN_DemiEgiMenu_SwiftcastEgi)]
-        [CustomComboInfo("Use only on Single Target combo", "Prevent this feature from applying to the AoE combo.", SMN.JobID, 2, "", "")]
+        [CustomComboInfo("단일 대상 콤보에만 사용", "이 기능이 광역 콤보에 적용되지 않도록 합니다.", SMN.JobID, 2, "", "")]
         SMN_DemiEgiMenu_SwiftcastEgi_Only = 17038,
         
         [ParentCombo(SMN_ESPainflare)]
-        [CustomComboInfo("Ruin IV Painflare Option", "Changes Painflare to Ruin IV when out of Aetherflow stacks, Energy Siphon is on cooldown, and Ruin IV is up.", SMN.JobID, 0, "", "")]
+        [CustomComboInfo("루인쟈 - 고통의 불길 옵션", "에테르를 모두 사용하고 생명력 흡입이 재사용 대기시간 중이며 류인쟈가 준비되어 있으면, 고통의 불길이 루인쟈로 변경됩니다.", SMN.JobID, 0, "", "")]
         SMN_ESPainflare_Ruin4 = 17039,
         
         [ParentCombo(SMN_Ifrit_Cyclone)]
-        [CustomComboInfo("Crimson Cyclone Option", "Only uses Crimson Cyclone if you are not moving, or have no remaining Ifrit Attunement charges.", SMN.JobID, 0, "", "")]
+        [CustomComboInfo("진홍 회오리 옵션", "이동하지 않거나 이프리트 에테르가 남아 있지 않을 때만 진홍 회오리를 사용합니다.", SMN.JobID, 0, "", "")]
         SMN_Ifrit_Cyclone_Option = 17040,
 
         [ConflictingCombos(SMN_Advanced_Combo)]
         [ReplaceSkill(SMN.Ruin, SMN.Ruin2, SMN.Outburst, SMN.Tridisaster)]
-        [CustomComboInfo("Simple Summoner Feature", "General purpose one-button combo.\nBursts on Bahamut phase.\nSummons Titan, Garuda, then Ifrit.\nSwiftcasts on Slipstream unless drifted.", SMN.JobID, -1, "", "")]
+        [CustomComboInfo("간단한 소환사 기능", "범용 원버튼 콤보입니다.\n바하무트 단계에서 버스트 합니다.\n타이탄, 가루다, 이프리트를 소환합니다.\n반동 기류에 신속한 마법을 사용합니다.", SMN.JobID, -1, "", "")]
         SMN_Simple_Combo = 17041,
 
         [ParentCombo(SMN_DemiEgiMenu_oGCDPooling)]
-        [CustomComboInfo("Burst Delay Option", "Only follows Burst Delay settings for the opener burst.\nThis Option is for high SPS builds.", SMN.JobID, 2, "", "")]
+        [CustomComboInfo("버스트 지연 옵션", "오프너 버스트에 대한 버스트 지연 설정만 따릅니다.\n이 옵션은 빠른 시전 속도 빌드에 사용됩니다.", SMN.JobID, 2, "", "")]
         SMN_Advanced_Burst_Delay_Option = 17043,
         
         [ParentCombo(SMN_DemiEgiMenu_oGCDPooling)]
-        [CustomComboInfo("Any Searing Burst Option", "Checks for any Searing light for bursting rather than just your own.\nUse this option if partied with multiple SMN and are worried about your Searing being overwritten.", SMN.JobID, 1, "", "")]
+        [CustomComboInfo("모든 타오르는 빛 버스트 옵션", "버스트를 위해 자신의 타오르는 빛뿐만 아니라 모든 타오르는 빛을 확인합니다.\n여러 소환사와 파티를 맺어 타오르는 빛이 덮어쓰이는 것이 걱정되는 경우 이 옵션을 사용합니다.", SMN.JobID, 1, "", "")]
         SMN_Advanced_Burst_Any_Option = 17044,
 
         [Variant]
